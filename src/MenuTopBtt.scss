@@ -1,0 +1,25 @@
+.menuTopBtt{
+    position: relative;
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    box-sizing: border-box;
+    border-left: 1px solid darkgray;
+    cursor: pointer;
+    &:last-child{
+        border-right: 1px solid darkgray;
+    }
+    &:hover{
+        background-color: white;
+        color: gray;
+        z-index: 99;
+    }
+    &.active{
+        border-top: 3px solid orange;
+        background-color: lightgray;
+        color: black;
+    }
+}
