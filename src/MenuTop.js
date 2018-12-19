@@ -7,13 +7,11 @@ class MenuTop extends Component {
   render() {
     return (
       <div className='menuTop'>
-        <Router>
-          <div>
+            <div>
             <Link to="/AboutMe"><MenuTopBtt name='AboutMe' nameDisp='About Me'></MenuTopBtt></Link>
             <Link to="/Projects"><MenuTopBtt name='Projects' nameDisp='My projects'></MenuTopBtt></Link>
             <Link to="/Contact"><MenuTopBtt name='Contact' nameDisp='Contact me'></MenuTopBtt></Link>
           </div>
-        </Router>
       </div>
     );
   }

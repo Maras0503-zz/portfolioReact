@@ -9,7 +9,6 @@ import MenuTop from './MenuTop';
 class MainContainer extends Component {
   render() {
     return (
-      <Router>
         <div className='mainContainer'>
           <MenuTop/>
           <div className='dispContent'>
@@ -21,7 +20,6 @@ class MainContainer extends Component {
               </Switch>
           </div>
         </div>
-      </Router>
     );
   }
 }
