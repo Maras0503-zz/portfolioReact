@@ -1,0 +1,37 @@
+.menuTopBtt{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    left: -240px;
+    background-color: deepskyblue;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 35px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    height: 50px;
+    width: 300px;
+    color: white;
+    box-sizing: border-box;
+    border-left: 1px solid darkgray;
+    cursor: pointer;
+    &:first-child{
+        margin-top: 5%;
+    }
+    &:hover{
+        background-color: silver;
+        left: -20px;
+        z-index: 99;
+        transition: 0.5s cubic-bezier(0,-.41,.19,1.44);
+    }
+    &.active{
+        background-color: lightgray;
+        color: black;
+    }
+}
+.flRight{
+    float: right;
+    margin-top: 5px;
+}

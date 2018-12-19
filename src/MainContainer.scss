@@ -1,8 +1,11 @@
 .mainContainer{
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100%;
-    .dispContent{
-        margin-top: 50px;
-    }
+}
+.dispContent{
+    margin-top: 20px;
+    margin-left: 70px;
+    height: calc( 100% - 20px );
+    width: calc( 100% - 70px );
 }

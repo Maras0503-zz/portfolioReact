@@ -1,0 +1,33 @@
+.projectMenuBtt{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    left: -310px;
+    background-color: springgreen;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 35px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    height: 50px;
+    width: 300px;
+    color: white;
+    box-sizing: border-box;
+    border-left: 1px solid darkgray;
+    cursor: pointer;
+    &:first-child{
+        margin-top: 20%;
+    }
+    &:hover{
+        background-color: silver;
+        left: -90px;
+        z-index: 99;
+        transition: 0.5s cubic-bezier(0,-.41,.19,1.44);
+    }
+    &.active{
+        background-color: lightgray;
+        color: black;
+    }
+}
